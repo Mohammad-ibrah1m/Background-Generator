@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is a simple JavaScript application on on random numbers and Local Storage">
+  <meta name="keywords" content="JavaScript,DOM,BOM,Bootstrap,Local Storage">
+  <title>Background Changer App</title>
+
+  <!-- FontAwesome V6.0 -->
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <!-- Bootstrap V5.1 -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!-- Main CSS file -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Responsive CSS file -->
+  <link rel="stylesheet" href="assets/css/style-responsive.css" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body id="body" class="text-center">
+  <div class="container">
+    <h2 class="app-title text-capitalize text-center mt-5 fw-bold">background generator app</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <button
+          class="btn btn-light mt-5 d-inline-block text-uppercase border-light rounded-pill btn-use bg-success mx-auto">
+          use current background
+        </button>
+      </div>
+      <div class="col-md-6">
+        <button
+          class="btn btn-light mt-5 d-inline-block text-uppercase border-light rounded-pill btn-show bg-danger mx-auto">
+          display generated colors
+        </button>
+      </div>
+      <div class="col-md-12 mt-5">
+        <div class="data">
+          <table class="table table-dark table-hover table-responsive table-striped">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Color</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

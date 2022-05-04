@@ -1,0 +1,31 @@
+/* Public CSS*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-title {
+  text-shadow: -2px 5px 5px #000;
+  color: #fff;
+}
+
+body {
+  transition: background-color 0.5s;
+}
+
+.btn-use,
+.btn-show {
+  padding: 10px 15px;
+  color: #fff !important;
+  transition: background-color 0.8s, color 0.5s;
+}
+
+.btn-use:hover {
+  background-color: #3b5998 !important;
+}
+
+.btn-show:hover {
+  background-color: #f00 !important;
+}
